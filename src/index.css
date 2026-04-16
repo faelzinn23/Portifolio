@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme{
+  /* Primary Blue */
+  --color-primary-50: #eff6ff;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-900: #1e3a8a;
+  
+  /* Dark Gray */
+  --color-grayDark-100: #f1f5f9;
+  --color-grayDark-500: #64748b;
+  --color-grayDark-700: #334155;
+  --color-grayDark-800: #1e293b;
+  --color-grayDark-900: #0f172a;
+  
+  /* Accents */
+  --color-accent-400: #a5b4fc;
+  --color-accent-500: #818cf8;
+  --color-accent-600: #6366f1;
+  
+  /* Surfaces & Backgrounds */
+  --color-surface: #0f172a;
+  --color-card: #1e293b;
+  --color-border: #334155;
+  
+  /* Gradients */
+  --gradient-hero: linear-gradient(135deg, #1e3a8a 0%, #1e1b4b 50%, #1e293b 100%);
+  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+
+  /* DAQUI PARA BAIXO SAO AS CORES DO GEMINI */
+
+  /* Cores de Fundo e Superfícies (Azul e Cinza Escuros) */
+    --color-fundo-principal: #0A192F; /* Azul profundíssimo para o fundo geral */
+    --color-superficie: #1E293B;      /* Cinza escuro elegante para os cards de projetos */
+    
+    /* Cores de Texto */
+    --color-texto-principal: #F1F5F9; /* Quase branco, suave para leitura no escuro */
+    --color-texto-secundario: #94A3B8;/* Cinza médio para descrições e subtítulos */
+    
+    /* Cor de Destaque (A "cereja do bolo") */
+    --color-destaque: #22D3EE;        /* Ciano neon vibrante para botões, links e ícones */
+}
